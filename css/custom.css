@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+/* ==========================================================================
+   	1. 404 ERROR PAGE.
+   ========================================================================== */
+
+brand-2{
+    font-family: 'Anton', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    font-weight: normal;
+    transition: 0.5s;
+}
+
+.tp-caption p{
+    color: #fff;
+    font-style: italic;
+    margin-top: 14px;
+}
+
+.bgimg {
+    background-image: url('../img/images/image20.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+.bottomright {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.middle {
+    position: absolute;
+    top: 35%;
+    left: 90px;
+    transform: translate(-35%, -150px;);
+    text-align: center;
+}
+
+.middle h1{
+    font-size: 120px;
+    text-align: left;
+}
+
+.middle h2{
+    font-size: 30px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.middle p{
+    text-align: left;
+    padding-top: 20px;
+	color: #FFF;
+}
+
+.bottomright .rightside .favicon-items .fa{
+    font-size: 25px;
+	color: #FFF;
+}
+
+.favicon-items{
+    display:inline-block;
+    margin-right: 10px;
+}
+
+/* ==========================================================================
+   	1. COMING SOON PAGE.
+   ========================================================================== */
+.half-header{
+	background-image: url("../img/images/image1.jpg");
+    height: 550px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    position: relative;
+}
+
+.span-coming-soon {
+    background: #FFF;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: #333;
+    font-size: 25px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.topleft-coming-soon {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+
+h1{
+	font-style: italic;
+	font-family: 'Patua One', cursive;
+	text-align: center;
+}
+
+.bottomleft-coming-soon {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+
+.information-right{
+	width: 400px;
+	height: 430px;
+	background: rgba(204, 204, 204, 0.5);
+	float: right;
+	margin: 60px;
+	padding: 30px;
+	box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08);
+}
+
+.inner-information{
+	margin: 20px 0px 20px 0px;
+}
+
+.icon-info{
+	float: left;
+	margin-right: 10px;
+	width: 40px;
+	height: 40px;
+}
+
+.icon-info .fa{
+	font-size: 40px;
+	color: #3FB6E0;
+}
+
+.icon-text p{
+	color: #fff;
+}
+
+.btn-more p{
+	text-align: center;
+}
+
+#counter {
+  text-align: center;
+  margin: 50px auto;
+  display: block;
+  font-size: 35px;
+  color: #282828;
+}
+
+#counter span, #counter i {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#counter span {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  min-width: 45px;
+  position: relative;
+  margin: 0 2px;
+  padding: 5px 15px 5px 15px;
+  color: white;
+  text-shadow: 0 0 2px #2D527C;
+  background-color: #3FB6E0;
+  border-radius: 4px;
+}
+
+#counter span.days {
+  margin-right: 20px;
+}
+
+#counter span.days:before {
+  content: "DAYS";
+}
+
+#counter span.hours:before {
+  content: "HOUR";
+}
+
+#counter span.minutes:before {
+  content: "MIN";
+}
+
+#counter span.seconds:before {
+  content: "SEC";
+}
+
+#counter span:before {
+  top: -20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: block;
+  color: black;
+  font-size: 0.35em;
+  text-shadow: none;
+}
+
+#counter i {
+  font-style: normal;
+}
+
+.subscription-form{
+	width: 380px;
+	margin: auto;
+	margin-top: -20px;
+	padding: 0px 20px 0px 20px;
+}
+
+.subscription-form p{
+	text-align: center;
+}
+
+.newsletter {
+  overflow: hidden;
+  height: 43px;
+  max-width: 370px;
+  position: relative;
+  margin-top: 8px;
+}
+.newsletter input {
+  width: 100%;
+  border: 1px solid #3FB6E0;
+  border-radius: 5px;
+  height: 40px;
+  padding: 10px 0 10px 15px;
+  text-transform: uppercase;
+  outline: none;
+  -moz-transition: border 0.2s ease;
+  -o-transition: border 0.2s ease;
+  -webkit-transition: border 0.2s ease;
+  transition: border 0.2s ease;
+    color: #333;
+  font-size: 13px;
+}
+.newsletter input:focus {
+  border: 1px solid #999;
+}
+.newsletter input:focus + button {
+  background-color: #264573;
+}
+.newsletter button {
+  position: absolute;
+  font-size: 13px;
+  z-index: 999;
+  right: 0px;
+  top: 4px;
+  height: 38px;
+  border: none;
+  background-color: #3FB6E0;
+  -moz-transition: background-color 0.3s ease, width 0.3s ease;
+  -o-transition: background-color 0.3s ease, width 0.3s ease;
+  -webkit-transition: background-color 0.3s ease, width 0.3s ease;
+  transition: background-color 0.3s ease, width 0.3s ease;
+  color: white;
+  padding: 0;
+  margin: 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  text-transform: uppercase;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+  @inlude transform(translateZ(0));
+}
+.newsletter button:hover {
+  width: 140px;
+}
+
+/* ==========================================================================
+   	1. MEDIA QUERIES.
+   ========================================================================== */
+
+@media (max-width:992px) { 
+.middle {
+    position: absolute;
+    top: 30%;
+    left: 90px;
+    transform: translate(-35%, -150px;);
+    text-align: center;
+}
+    
+}
+
+@media (max-width:768px) {
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+} 
+    
+.middle h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.middle h2{
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.3;
+}
+
+.middle p{
+    text-align: center;
+    padding-top: 20px;
+}
+	
+.topleft-coming-soon {
+    position: absolute;
+}
+	
+.logo-brand{
+	width: 200px;
+	margin: auto;
+}
+	
+.information-right{
+	width: 400px;
+	height: 430px;
+	float: none;
+	margin: 0px auto 0px auto;
+}
+    
+}
+
+@media (max-width:440px) {   
+.middle h1{
+    font-size: 35px;
+    text-align: center;
+}
+
+.middle h2{
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.3;
+}
+
+.information-right{
+	width: 100%;
+	height: 430px;
+	float: none;
+	margin: 0px;
+	padding: 30px;
+	box-shadow: none;
+}
+	
+#counter span {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  min-width: 35px;
+  position: relative;
+  margin: 0 2px;
+  padding: 5px;
+  color: white;
+  text-shadow: 0 0 2px #2D527C;
+  background-color: #3FB6E0;
+  border-radius: 4px;
+}
+	
+#counter {
+    font-size: 30px;
+  }
+
+.subscription-form{
+	width: 100%;
+	padding: 0px 30px 0px 30px;
+}
+    
+}
