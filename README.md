@@ -1,2 +1,14 @@
-# -MedicalInformationExtractionSystem-for-Patient-History
-The population of our country is distributed in geographical hierarchy divisions such as the village, Thana, Upazila, Divisions, and such. Hospitals, Specific specialists, diagnostic centers, and all other medical facilities did not reach each of these geographic locations. As a result, patients have to usually travel to immediate hierarchy locations such as from village to thana or from Upazila to a central city in the division. But on the other hand, the internet and mobile or laptop devices have reached almost all corners of the landscape. As a result, the documentation of medical records, history, reports prescriptions can be managed remotely, and data integrity can be ensured. Utilizing this digitized advantage, we introduce a web application that will contain the medical history data of every patient for hospitals, doctors, or patients can access data from anywhere anytime. Easy and User-friendly data input methods for users will be available to help enrich the database as efficiently as possible. They are making the process of reading medical reports and prescriptions and entering those data into the database. An opportunity for digital collaboration between the databases created by the hospital surfaces with this infrastructure and proposed methodology. Individual profiles for doctors and patients will create a safe and organized data environment for access and lifetime backup. The interface will guide the average users to input their medical records.
+Project Name : Medical Information Extraction System. 
+
+Members : 1.Shekh Abdullah-Al-Noman(173-15-10461).
+          2.Ahmed Ragib Hassan(173-15-10487).
+          3.Md Nasim(173-15-10463).
+
+
+1. Index.php is the home page for all.
+2. login.php have all login options like (patient login,doctor login  & admin login).
+3. Also have sign up options for doctor and patient, Logout included.
+4. Admin panel have add doctor , update information , delete data .
+5. Doctor panel,doctors can view their appoinments , follow ups & patient information.
+6. In doctor.php admins and patients can see all docotors information.
+7. At Last About Us page. 

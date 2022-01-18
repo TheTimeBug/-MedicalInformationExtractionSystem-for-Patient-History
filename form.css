@@ -1,0 +1,17 @@
+
+
+#form-field.error input {
+    border-color: rgb(240, 7, 7);
+}
+
+#form-field.success input {
+    border-color: green;
+}
+
+
+#form-field small {
+    color: rgb(255, 0, 106);
+}
+
+
+
